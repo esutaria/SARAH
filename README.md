@@ -14,18 +14,36 @@ with visual impairments.
 
 ## The Problem
 
-White canes are inexpensive and reliable mobility aids, but cannot
-detect many hazards above ground level and provide limited information
-about a user's surrounding environment. Thus the preferred assistance form 
-for the visually impaired community is sighted guides, but they can be 
-difficult to have around 24/7 and very expensive to hire.
+Existing mobility aids help people with visual impairments navigate more
+independently, but each comes with important limitations.
 
-S.A.R.A.H. explores whether a visual-language model can augment a
-traditional white cane by providing in one system the two capabilities that 
-give sighted guides the biggest advantage:
+Through my literature review, I became particularly interested in the
+advantages of sighted guides. Unlike a traditional assistive device, another
+person can both proactively warn someone about hazards and respond flexibly
+to questions about anything in the surrounding environment.
 
-1. Proactive hazard detection
-2. On-demand environmental assistance
+The problem is that relying on continuous sighted assistance limits
+independence and is not always practical or accessible.
+
+This became the central design inspiration for S.A.R.A.H.:
+
+> **Could multimodal AI provide some of the contextual environmental
+> assistance of a sighted guide without requiring another person to
+> constantly be present?**
+
+S.A.R.A.H. explores this idea through two complementary capabilities:
+
+1. **Proactive hazard detection** — identify potential obstacles and alert
+   the user without requiring them to ask.
+
+2. **On-demand environmental assistance** — allow the user to ask open-ended
+   questions about their surroundings, such as identifying objects,
+   landmarks, signs, or text.
+
+This distinction shaped the decision to use a visual-language model rather
+than a conventional object detector. Instead of recognizing only a
+predefined set of object classes, the system could interpret an entire scene
+and respond to a much wider range of environmental questions.
 
 ## How It Works
 
