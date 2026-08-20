@@ -47,15 +47,19 @@ and respond to a much wider range of environmental questions.
 
 ## How It Works
 
-Camera → OpenCV → Gemini 2.0 Flash
-                     ↓
-              ┌──────────────┐
-              │              │
-        Hazard Monitor   Voice Assistant
-              │              │
-              └──────┬───────┘
-                     ↓
-                Text-to-Speech
+```mermaid
+flowchart TD
+    A["📷 Camera"] --> B["OpenCV<br/>Frame Capture"]
+    B --> C["Gemini 2.0 Flash"]
+
+    C --> D["Hazard Detection"]
+    C --> E["Voice Assistant"]
+
+    D --> F["Text-to-Speech"]
+    E --> F
+
+    F --> G["User"]
+```
 
 The hazard pipeline periodically analyzes the user's surroundings and
 announces relevant obstacles.
