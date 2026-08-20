@@ -49,7 +49,7 @@ and respond to a much wider range of environmental questions.
 
 ```mermaid
 flowchart TD
-    A["📷 Camera"] --> B["OpenCV<br/>Frame Capture"]
+    A["Camera on White Cane"] --> B["OpenCV<br/>Frame Capture"]
     B --> C["Gemini 2.0 Flash"]
 
     C --> D["Hazard Detection"]
