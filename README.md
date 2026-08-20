@@ -6,7 +6,7 @@ A multimodal AI assistive system combining real-time environmental
 hazard detection with a voice-controlled visual assistant for people
 with visual impairments.
 
-## 🎥 Demo
+## Demo Video
 
 [![Watch the S.A.R.A.H. Prototype Demo](https://img.youtube.com/vi/WMObGMByjl4/maxresdefault.jpg)](https://youtu.be/WMObGMByjl4)
 
